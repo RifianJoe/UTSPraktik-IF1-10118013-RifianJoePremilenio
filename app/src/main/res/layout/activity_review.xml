@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".review">
+
+    <TextView
+        android:id="@+id/header2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cek Kembali Isian Data"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/txtNik2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/header2"
+        android:textStyle="bold"
+        android:text="NIK"
+        />
+
+    <TextView
+        android:id="@+id/edtNik2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/txtNik2"
+        android:text="isiNik"
+        />
+
+    <TextView
+        android:id="@+id/txtNama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/edtNik2"
+        android:textStyle="bold"
+        android:text="Nama"
+        />
+
+    <TextView
+        android:id="@+id/edtNama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/txtNama2"
+        android:text="isiNama"/>
+
+    <TextView
+        android:id="@+id/txtTanggal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/edtNama2"
+        android:textStyle="bold"
+        android:text="Tanggal Lahir"
+        />
+
+    <TextView
+        android:id="@+id/edtTanggal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/txtTanggal2"
+        android:text="isi Tanggal Lahir"
+        />
+
+    <TextView
+        android:id="@+id/txtJk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/edtTanggal2"
+        android:textStyle="bold"
+        android:text="Jenis Kelamin"
+        />
+
+    <TextView
+        android:id="@+id/edtJk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/txtJk2"
+        android:text="@string/jeniskelamin"/>
+
+    <TextView
+        android:id="@+id/txtHub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/edtJk2"
+        android:textStyle="bold"
+        android:text="Hubungan Dengan Anda"
+        />
+
+    <TextView
+        android:id="@+id/edtHub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/txtHub2"
+        android:text="isi Hubungan Dengan Anda"/>
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnUbah"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Simpan"/>
+
+    <Button
+        android:id="@+id/btnUbah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentBottom="true"
+        android:text="Ubah"/>
+
+
+</RelativeLayout>

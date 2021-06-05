@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dialog">
+
+    <ImageView
+        android:id="@+id/header3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dialog_frame"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/subTextDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berhasil Disimpan"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_below="@id/header3"
+        />
+
+    <TextView
+        android:id="@+id/txtDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="59dp"
+        android:layout_marginLeft="59dp"
+        android:gravity="center"
+        android:layout_below="@id/subTextDialog"
+        android:text="Terima kasih, laporan Anda membantu kami dalam melakukan penanganan kasus secara tepat. "
+        />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_below="@id/txtDialog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Ok"
+        />
+
+</RelativeLayout>
